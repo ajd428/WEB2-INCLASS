@@ -9,6 +9,7 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
+<<<<<<< Updated upstream
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -272,6 +273,9 @@
       "oO" : 1,
       "oS" : 1
     }
+=======
+
+>>>>>>> Stashed changes
   },
   "hooks" : [
 
