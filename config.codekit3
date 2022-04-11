@@ -201,6 +201,14 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 0
+    },
     "\/deploy\/js\/scripts-min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -218,6 +226,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/hero-1.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/hero-collage.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/hero-collage.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
