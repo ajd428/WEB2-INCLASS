@@ -141,6 +141,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/icons\/footer-line.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/icons\/footer-line.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/icons\/instagram.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -166,6 +176,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/deploy\/img\/icons\/phone.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/icons\/search-line.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/icons\/search-line.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
