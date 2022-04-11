@@ -240,6 +240,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/content\/blog.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/blog.html",
+      "oF" : 0
+    },
     "\/dev\/content\/hero-1.kit" : {
       "cB" : 0,
       "ft" : 2048,
