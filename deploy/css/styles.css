@@ -397,15 +397,22 @@ textarea {
 /* =============
     Blog
 ============= */
-#blog {
-  display: grid;
-  gap: 2px;
-  grid-template-rows: repeat(5, 381px);
-}
 @media (min-width: 768px) {
   #blog {
     grid-template-columns: 50% auto;
     grid-template-rows: repeat(3, 433px);
+  }
+}
+@media (min-width: 1024px) {
+  #blog {
+    grid-template-columns: auto 80% auto;
+    grid-template-rows: repeat(2, 405px);
+  }
+}
+@media (min-width: 1440px) {
+  #blog {
+    grid-template-columns: auto 1440px auto;
+    grid-template-rows: repeat(2, 429.34px);
   }
 }
 #blog section section img {
@@ -430,6 +437,11 @@ textarea {
     HeroStripe
 ============= */
 @media (min-width: 768px) {
+  #hero-stripe {
+    grid-template-columns: auto 80% auto;
+  }
+}
+@media (min-width: 1024px) {
   #hero-stripe {
     grid-template-columns: auto 80% auto;
   }

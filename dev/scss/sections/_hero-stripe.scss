@@ -6,6 +6,10 @@
         grid-template-columns: auto 80% auto;
     }
 
+    @include lg{
+        grid-template-columns: auto 80% auto;
+    }
+
     @include xxl{
         grid-template-columns: auto 1440px auto;
     }

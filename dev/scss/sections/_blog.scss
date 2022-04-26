@@ -4,14 +4,20 @@
 
 #blog{
 
-    display: grid;
-    gap: 2px;
-    grid-template-rows: repeat(5, 381px);
-
 
     @include md{
         grid-template-columns: 50% auto;
         grid-template-rows: repeat(3, 433px);
+    }
+
+    @include lg{
+        grid-template-columns: auto 80% auto;
+        grid-template-rows: repeat(2, 405px);
+    }
+
+    @include xxl{
+        grid-template-columns: auto 1440px auto;
+        grid-template-rows: repeat(2, 429.34px);
     }
 
     #blog-title{
