@@ -1,7 +1,12 @@
 /* =============
     HeroStripe
 ============= */
-
 #hero-stripe{
-    
+
+}
+.secondary-content{
+    >div{
+        display: grid;
+        grid-template-columns: 75% auto;
+    }
 }
