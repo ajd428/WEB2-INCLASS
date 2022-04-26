@@ -391,9 +391,17 @@ textarea {
 /* =============
     Hero1
 ============= */
+#hero-1 img {
+  width: 100%;
+}
+
 /* =============
     HeroCollage
 ============= */
+#hero-collage img {
+  width: 100%;
+}
+
 /* =============
     HeroStripe
 ============= */
