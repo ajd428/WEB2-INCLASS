@@ -352,6 +352,15 @@ template {
 /* =============
     Base
 ============= */
+.global-grid-mobile {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". mobile-grid .";
+}
+.global-grid-mobile > div {
+  grid-area: mobile-grid;
+}
+
 /* =============
     Typography
 ============= */
