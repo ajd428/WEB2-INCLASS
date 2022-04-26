@@ -2,7 +2,22 @@
     HeroStripe
 ============= */
 #hero-stripe{
+    @include md{
+        grid-template-columns: auto 80% auto;
+    }
 
+    @include xxl{
+        grid-template-columns: auto 1440px auto;
+    }
+
+    section{
+        div{
+           @include lg{
+               display: grid;
+               grid-template-columns: 50% auto;
+           } 
+        }
+    }
 }
 .secondary-content{
     >div{
