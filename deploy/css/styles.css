@@ -364,6 +364,16 @@ template {
 .spacing {
   margin-top: 32px;
 }
+@media (min-width: 768px) {
+  .spacing {
+    margin-top: 64px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1440px) {
+  .spacing {
+    margin-top: 72px;
+  }
+}
 
 /* =============
     Typography
