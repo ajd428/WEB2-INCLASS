@@ -378,6 +378,38 @@ template {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h4 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h5 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h6 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+p {
+  font-family: "Josefin Sans", sans-serif;
+}
+
 /* =============
     Buttons
 ============= */
