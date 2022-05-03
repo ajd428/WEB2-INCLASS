@@ -21,6 +21,15 @@
         margin-top: 72px;
     }
     }
+
+    margin-bottom: 16px;
+    @include md{
+        margin-bottom: 32px;
+
+    @include xxl{
+        margin-bottom: 40px;
+    }
+    }
 }
 
 p{
