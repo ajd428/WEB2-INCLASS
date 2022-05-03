@@ -22,3 +22,48 @@
     }
     }
 }
+
+p{
+    font-weight: 200;
+    font-size: rem-calc (16);
+}
+
+h1{
+    font-weight: 500;
+    text-align: left;
+    font-size: rem-calc (27);
+    margin: 24px 0 16px 0;
+    padding: 0 16px;
+}
+
+h2{
+    font-weight: 400;
+    text-align: left;
+    font-size: rem-calc(20);
+    margin: 24px 0 16px 0;
+    padding: 0 16px;
+}
+
+h3{
+    font-weight: 300;
+    text-align: left;
+    font-size: rem-calc (20);
+    margin: 24px 0 16px 0;
+    padding: 0 16px;
+}
+
+h4{
+    font-weight: 300;
+    text-align: left;
+    font-size: rem-calc (16);
+    margin: 24px 0 16px 0;
+    padding: 0 16px; 
+}
+
+h5{
+    font-weight: 200;
+    text-align: left;
+    font-size: rem-calc (14);
+    margin: 24px 0 16px 0;
+    padding: 0 16px;
+}
