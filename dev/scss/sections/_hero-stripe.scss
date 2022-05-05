@@ -16,20 +16,28 @@
 
     section{
         div{
-           @include lg{
-               display: grid;
-               grid-template-columns: 50% auto;
-           } 
+            padding: 0 16px;
+        }
+    }
+
+    article{
+        @include md{
+            display: grid;
+            grid-template-columns: 50% auto;
         }
     }
 }
 .secondary-content{
-    >div{
-        display: grid;
-        grid-template-columns: 75% auto;
-
-        aside{
-            width: 100%;
+    section{
+        >div{
+            display: grid;
+            grid-template-columns: 75% auto;
+    
+            aside{
+                img{
+                    width: 100%;
+                }
+            }
         }
     }
 }

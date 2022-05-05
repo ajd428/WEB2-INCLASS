@@ -577,18 +577,21 @@ textarea {
     grid-template-columns: auto 1440px auto;
   }
 }
-@media (min-width: 1024px) {
-  #hero-stripe section div {
+#hero-stripe section div {
+  padding: 0 16px;
+}
+@media (min-width: 768px) {
+  #hero-stripe article {
     display: grid;
     grid-template-columns: 50% auto;
   }
 }
 
-.secondary-content > div {
+.secondary-content section > div {
   display: grid;
   grid-template-columns: 75% auto;
 }
-.secondary-content > div aside {
+.secondary-content section > div aside img {
   width: 100%;
 }
 
