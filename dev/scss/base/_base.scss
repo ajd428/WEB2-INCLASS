@@ -11,6 +11,26 @@
     }
 }
 
+.show-for-md{
+    display: block;
+    @include md{
+        display: block;
+    }
+    @include lg{
+        display: none;
+    }
+}
+
+.show-for-lg{
+    display: none;
+    @include md{
+        display: none;
+    }
+    @include lg{
+        display: block;
+    }
+}
+
 .spacing{
     // margin: 32px 0 0 0;
     margin-top: 32px;

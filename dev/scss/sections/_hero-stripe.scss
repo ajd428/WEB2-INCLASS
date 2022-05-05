@@ -27,5 +27,9 @@
     >div{
         display: grid;
         grid-template-columns: 75% auto;
+
+        aside{
+            width: 100%;
+        }
     }
 }

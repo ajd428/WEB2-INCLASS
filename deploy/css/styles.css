@@ -361,6 +361,34 @@ template {
   grid-area: mobile-grid;
 }
 
+.show-for-md {
+  display: block;
+}
+@media (min-width: 768px) {
+  .show-for-md {
+    display: block;
+  }
+}
+@media (min-width: 1024px) {
+  .show-for-md {
+    display: none;
+  }
+}
+
+.show-for-lg {
+  display: none;
+}
+@media (min-width: 768px) {
+  .show-for-lg {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .show-for-lg {
+    display: block;
+  }
+}
+
 .spacing {
   margin-top: 32px;
   margin-bottom: 16px;
@@ -559,6 +587,9 @@ textarea {
 .secondary-content > div {
   display: grid;
   grid-template-columns: 75% auto;
+}
+.secondary-content > div aside {
+  width: 100%;
 }
 
 /* =============
