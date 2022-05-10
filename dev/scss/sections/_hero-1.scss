@@ -3,7 +3,13 @@
 ============= */
 
 #hero-1{
-    img{
-        width: 100%;
-    }
+        width: 100vw;
+        height: 50vh;
+        background-image: url(../img/heroes/hero1.jpg);
+        background-size: cover;
+        background-position: center center;
+
+        @include lg{
+            height: 80vh;
+        }
 }

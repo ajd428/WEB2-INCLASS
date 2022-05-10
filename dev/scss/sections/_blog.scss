@@ -2,6 +2,15 @@
     Blog
 ============= */
 
+.blogsizing{
+    section{   
+        img{
+            width: 100%;
+        }
+    }
+}
+
+
 #blog{
 
 
@@ -18,13 +27,6 @@
     @include xxl{
         grid-template-columns: auto 1440px auto;
         grid-template-rows: repeat(2, 429.34px);
-    }
-    .blogsizing{
-        section{   
-            img{
-                width: 100%;
-            }
-        }
     }
 }
 

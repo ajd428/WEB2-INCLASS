@@ -3,20 +3,12 @@
 ============= */
 #hero-stripe{
     @include md{
-        grid-template-columns: auto 80% auto;
-    }
-
-    @include lg{
-        grid-template-columns: auto 80% auto;
-    }
-
-    @include xxl{
-        grid-template-columns: auto 1440px auto;
+        grid-template-columns: 50% auto;
     }
 
     section{
         div{
-            padding: 0 16px;
+            padding: 16px;
         }
     }
 
@@ -24,6 +16,7 @@
         @include md{
             display: grid;
             grid-template-columns: 50% auto;
+            padding: 16px;
         }
     }
 }

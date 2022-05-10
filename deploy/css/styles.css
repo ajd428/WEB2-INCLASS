@@ -523,6 +523,10 @@ textarea {
 /* =============
     Blog
 ============= */
+.blogsizing section img {
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   #blog {
     grid-template-columns: 50% auto;
@@ -541,15 +545,21 @@ textarea {
     grid-template-rows: repeat(2, 429.34px);
   }
 }
-#blog .blogsizing section img {
-  width: 100%;
-}
 
 /* =============
     Hero1
 ============= */
-#hero-1 img {
-  width: 100%;
+#hero-1 {
+  width: 100vw;
+  height: 50vh;
+  background-image: url(../img/heroes/hero1.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+@media (min-width: 1024px) {
+  #hero-1 {
+    height: 80vh;
+  }
 }
 
 /* =============
@@ -564,26 +574,17 @@ textarea {
 ============= */
 @media (min-width: 768px) {
   #hero-stripe {
-    grid-template-columns: auto 80% auto;
-  }
-}
-@media (min-width: 1024px) {
-  #hero-stripe {
-    grid-template-columns: auto 80% auto;
-  }
-}
-@media (min-width: 1440px) {
-  #hero-stripe {
-    grid-template-columns: auto 1440px auto;
+    grid-template-columns: 50% auto;
   }
 }
 #hero-stripe section div {
-  padding: 0 16px;
+  padding: 16px;
 }
 @media (min-width: 768px) {
   #hero-stripe article {
     display: grid;
     grid-template-columns: 50% auto;
+    padding: 16px;
   }
 }
 
