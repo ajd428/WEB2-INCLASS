@@ -98,7 +98,7 @@
     },
     "\/deploy\/img\/heroes\/first.jpg" : {
       "ft" : 16384,
-      "iS" : 63926,
+      "iS" : 61823,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/heroes\/first.jpg",
@@ -124,13 +124,13 @@
     },
     "\/deploy\/img\/heroes\/hero1.jpg" : {
       "ft" : 16384,
-      "iS" : 152505,
+      "iS" : 163142,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/heroes\/hero1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -157,7 +157,7 @@
     },
     "\/deploy\/img\/heroes\/second.jpg" : {
       "ft" : 16384,
-      "iS" : 69216,
+      "iS" : 66874,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/heroes\/second.jpg",
