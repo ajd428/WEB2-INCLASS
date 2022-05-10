@@ -21,55 +21,70 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/blog\/blog1.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/blog\/blog1.svg",
+    "\/deploy\/img\/blog\/blog1.jpg" : {
+      "ft" : 16384,
+      "iS" : 121852,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/blog\/blog1.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/deploy\/img\/blog\/blog2.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/blog\/blog2.svg",
+    "\/deploy\/img\/blog\/blog2.jpg" : {
+      "ft" : 16384,
+      "iS" : 138281,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/blog\/blog2.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/deploy\/img\/blog\/blog3.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/blog\/blog3.svg",
+    "\/deploy\/img\/blog\/blog3.jpg" : {
+      "ft" : 16384,
+      "iS" : 251743,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/blog\/blog3.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/deploy\/img\/blog\/blog4.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/blog\/blog4.svg",
+    "\/deploy\/img\/blog\/blog4.jpg" : {
+      "ft" : 16384,
+      "iS" : 121461,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/blog\/blog4.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/deploy\/img\/blog\/blog5.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/blog\/blog5.svg",
+    "\/deploy\/img\/blog\/blog5.jpg" : {
+      "ft" : 16384,
+      "iS" : 647926,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/blog\/blog5.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/header\/logo.svg" : {
       "ft" : 2097152,
@@ -81,65 +96,83 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/heroes\/first.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/heroes\/first.svg",
+    "\/deploy\/img\/heroes\/first.jpg" : {
+      "ft" : 16384,
+      "iS" : 63926,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/heroes\/first.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/deploy\/img\/heroes\/hero-collage.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/heroes\/hero-collage.svg",
+    "\/deploy\/img\/heroes\/hero-collage.jpg" : {
+      "ft" : 16384,
+      "iS" : 211604,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/heroes\/hero-collage.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/deploy\/img\/heroes\/hero1.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/heroes\/hero1.svg",
+    "\/deploy\/img\/heroes\/hero1.jpg" : {
+      "ft" : 16384,
+      "iS" : 152505,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/heroes\/hero1.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/deploy\/img\/heroes\/hero2.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/heroes\/hero2.svg",
+    "\/deploy\/img\/heroes\/hero2.jpg" : {
+      "ft" : 16384,
+      "iS" : 179226,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/heroes\/hero2.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/deploy\/img\/heroes\/hero3.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/heroes\/hero3.svg",
+    "\/deploy\/img\/heroes\/hero3.jpg" : {
+      "ft" : 16384,
+      "iS" : 132092,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/heroes\/hero3.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/deploy\/img\/heroes\/second.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/heroes\/second.svg",
+    "\/deploy\/img\/heroes\/second.jpg" : {
+      "ft" : 16384,
+      "iS" : 69216,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/heroes\/second.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/icons\/arrow.svg" : {
       "ft" : 2097152,
