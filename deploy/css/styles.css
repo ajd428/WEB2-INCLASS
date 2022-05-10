@@ -541,8 +541,7 @@ textarea {
     grid-template-rows: repeat(2, 429.34px);
   }
 }
-
-.blogsizing section img {
+#blog .blogsizing section img {
   width: 100%;
 }
 
