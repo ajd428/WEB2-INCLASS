@@ -520,6 +520,10 @@ textarea {
 /* =============
     Footer
 ============= */
+.footer {
+  display: flex;
+}
+
 /* =============
     Blog
 ============= */
@@ -544,6 +548,18 @@ textarea {
     grid-template-columns: auto 1440px auto;
     grid-template-rows: repeat(2, 429.34px);
   }
+}
+#blog body {
+  font-family: "Josein Sans", sans-serif;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  color: black;
+}
+#blog img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
 }
 
 /* =============

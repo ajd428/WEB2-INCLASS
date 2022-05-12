@@ -28,6 +28,20 @@
         grid-template-columns: auto 1440px auto;
         grid-template-rows: repeat(2, 429.34px);
     }
+
+    body{
+        font-family: "Josein Sans", sans-serif;
+        display: grid;
+        place-items: center;
+        height: 100vh;
+        color: black
+    }
+
+    img {
+        max-width: 100%;
+        display: block;
+        object-fit: cover;
+    }
 }
 
 
