@@ -552,14 +552,10 @@ textarea {
 #blog body {
   font-family: "Josein Sans", sans-serif;
   display: grid;
-  place-items: center;
-  height: 100vh;
-  color: black;
 }
 #blog img {
   max-width: 100%;
   display: block;
-  object-fit: cover;
 }
 
 /* =============

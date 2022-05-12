@@ -32,15 +32,11 @@
     body{
         font-family: "Josein Sans", sans-serif;
         display: grid;
-        place-items: center;
-        height: 100vh;
-        color: black
     }
 
     img {
         max-width: 100%;
         display: block;
-        object-fit: cover;
     }
 }
 
