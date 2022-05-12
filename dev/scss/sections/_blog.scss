@@ -2,42 +2,74 @@
     Blog
 ============= */
 
-.blogsizing{
-    section{   
-        img{
-            width: 100%;
-        }
-    }
-}
+// .blogsizing{
+//     section{   
+//         img{
+//             width: 100%;
+//         }
+//     }
+// }
 
 
 #blog{
 
+    #blog-title{
+        h3{
 
-    @include md{
-        grid-template-columns: 50% auto;
-        grid-template-rows: repeat(3, 433px);
+        }
     }
 
-    @include lg{
-        grid-template-columns: auto 80% auto;
-        grid-template-rows: repeat(2, 405px);
+    .blog-card{
+        section{
+            background-size: cover;
+            height: 300px;
+            background-position: center;
+        }
+
+        div{
+            background-color: green;
+            padding: 16px;
+        }
     }
 
-    @include xxl{
-        grid-template-columns: auto 1440px auto;
-        grid-template-rows: repeat(2, 429.34px);
+    #blog-1{
+        section{
+            background-image: url("../img/blog/blog1.jpg");
+        }
     }
 
-    body{
-        font-family: "Josein Sans", sans-serif;
-        display: grid;
+    #blog-2{
+        section{
+            background-image: url("../img/blog/blog2.jpg");
+        }
     }
 
-    img {
-        max-width: 100%;
-        display: block;
-    }
+
+
+    // @include md{
+    //     grid-template-columns: 50% auto;
+    //     grid-template-rows: repeat(3, 433px);
+    // }
+
+    // @include lg{
+    //     grid-template-columns: auto 80% auto;
+    //     grid-template-rows: repeat(2, 405px);
+    // }
+
+    // @include xxl{
+    //     grid-template-columns: auto 1440px auto;
+    //     grid-template-rows: repeat(2, 429.34px);
+    // }
+
+    // body{
+    //     font-family: "Josein Sans", sans-serif;
+    //     display: grid;
+    // }
+
+    // img {
+    //     max-width: 100%;
+    //     display: block;
+    // }
 }
 
 
