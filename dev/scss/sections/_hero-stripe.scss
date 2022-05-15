@@ -20,17 +20,16 @@
         }
     }
 }
+
 .secondary-content{
     section{
         >div{
             display: grid;
             grid-template-columns: 75% auto;
-    
-            aside{
-                img{
-                    width: 100%;
-                }
+            img{
+                width: 100%;
             }
         }
     }
 }
+

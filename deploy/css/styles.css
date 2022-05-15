@@ -606,7 +606,7 @@ header {
   display: grid;
   grid-template-columns: 75% auto;
 }
-.secondary-content section > div aside img {
+.secondary-content section > div img {
   width: 100%;
 }
 
