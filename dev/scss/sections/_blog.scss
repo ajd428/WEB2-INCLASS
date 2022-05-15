@@ -15,7 +15,7 @@
 
     #blog-title{
         h3{
-
+            color: gray;
         }
     }
 
@@ -27,7 +27,7 @@
         }
 
         div{
-            background-color: green;
+            background-color: rgb(52, 84, 37);
             padding: 16px;
         }
     }
@@ -36,14 +36,86 @@
         section{
             background-image: url("../img/blog/blog1.jpg");
         }
+        div{
+            h1{
+                color: white;
+                font-weight: 500;
+            }
+            p{
+                color: white;
+                font-weight: 200;
+                font-size: rem-calc (16);
+            }
+        }
     }
 
     #blog-2{
         section{
             background-image: url("../img/blog/blog2.jpg");
         }
+        div{
+            h1{
+                color: white;
+                font-weight: 500;
+            }
+            p{
+                color: white;
+                font-weight: 200;
+                font-size: rem-calc (16);
+            }
+        }
     }
 
+    #blog-3{
+        section{
+            background-image: url("../img/blog/blog3.jpg");
+        }
+        div{
+            h1{
+                color: white;
+                font-weight: 500;
+            }
+            p{
+                color: white;
+                font-weight: 200;
+                font-size: rem-calc (16);
+            }
+        }
+    }
+
+    #blog-4{
+        section{
+            background-image: url("../img/blog/blog4.jpg");
+        }
+        div{
+            h1{
+                color: white;
+                font-weight: 500;
+            }
+            p{
+                color: white;
+                font-weight: 200;
+                font-size: rem-calc (16);
+            }
+        }
+    }
+
+    #blog-5{
+        section{
+            background-image: url("../img/blog/blog5.jpg");
+        }
+        div{
+            h1{
+                color: white;
+                font-weight: 500;
+            }
+            p{
+                color: white;
+                font-weight: 200;
+                font-size: rem-calc (16);
+            }
+        }
+    }
 
 
     // @include md{

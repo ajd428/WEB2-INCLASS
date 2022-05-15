@@ -454,20 +454,77 @@ textarea {
 /* =============
     Blog
 ============= */
+#blog #blog-title h3 {
+  color: gray;
+}
 #blog .blog-card section {
   background-size: cover;
   height: 300px;
   background-position: center;
 }
 #blog .blog-card div {
-  background-color: green;
+  background-color: #345425;
   padding: 16px;
 }
 #blog #blog-1 section {
   background-image: url("../img/blog/blog1.jpg");
 }
+#blog #blog-1 div h1 {
+  color: white;
+  font-weight: 500;
+}
+#blog #blog-1 div p {
+  color: white;
+  font-weight: 200;
+  font-size: rem-calc 16;
+}
 #blog #blog-2 section {
   background-image: url("../img/blog/blog2.jpg");
+}
+#blog #blog-2 div h1 {
+  color: white;
+  font-weight: 500;
+}
+#blog #blog-2 div p {
+  color: white;
+  font-weight: 200;
+  font-size: rem-calc 16;
+}
+#blog #blog-3 section {
+  background-image: url("../img/blog/blog3.jpg");
+}
+#blog #blog-3 div h1 {
+  color: white;
+  font-weight: 500;
+}
+#blog #blog-3 div p {
+  color: white;
+  font-weight: 200;
+  font-size: rem-calc 16;
+}
+#blog #blog-4 section {
+  background-image: url("../img/blog/blog4.jpg");
+}
+#blog #blog-4 div h1 {
+  color: white;
+  font-weight: 500;
+}
+#blog #blog-4 div p {
+  color: white;
+  font-weight: 200;
+  font-size: rem-calc 16;
+}
+#blog #blog-5 section {
+  background-image: url("../img/blog/blog5.jpg");
+}
+#blog #blog-5 div h1 {
+  color: white;
+  font-weight: 500;
+}
+#blog #blog-5 div p {
+  color: white;
+  font-weight: 200;
+  font-size: rem-calc 16;
 }
 
 /* =============
