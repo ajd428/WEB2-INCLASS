@@ -22,14 +22,11 @@
 }
 
 .secondary-content{
-    section{
-        >div{
-            display: grid;
-            grid-template-columns: 75% auto;
-            img{
-                width: 100%;
-            }
+    >div{
+        display: grid;
+        grid-template-columns: 75% auto;
+        img{
+            width: 100%;
         }
     }
 }
-

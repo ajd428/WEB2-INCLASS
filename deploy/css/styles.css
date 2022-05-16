@@ -602,11 +602,11 @@ header {
   }
 }
 
-.secondary-content section > div {
+.secondary-content > div {
   display: grid;
   grid-template-columns: 75% auto;
 }
-.secondary-content section > div img {
+.secondary-content > div img {
   width: 100%;
 }
 
