@@ -474,6 +474,10 @@ footer div #locations section div section {
 #blog #blog-title h3 {
   color: gray;
 }
+#blog .blog-card {
+  display: grid;
+  gap: 16px;
+}
 #blog .blog-card section {
   background-size: cover;
   height: 300px;
@@ -482,6 +486,11 @@ footer div #locations section div section {
 #blog .blog-card div {
   background-color: #3d5a34;
   padding: 16px;
+}
+@media (min-width: 768px) {
+  #blog #blog-1 {
+    grid-area: blog-1;
+  }
 }
 #blog #blog-1 section {
   background-image: url("../img/blog/blog1.jpg");
@@ -495,6 +504,11 @@ footer div #locations section div section {
   font-weight: 200;
   font-size: rem-calc 16;
 }
+@media (min-width: 768px) {
+  #blog #blog-2 {
+    grid-area: blog-2;
+  }
+}
 #blog #blog-2 section {
   background-image: url("../img/blog/blog2.jpg");
 }
@@ -506,6 +520,11 @@ footer div #locations section div section {
   color: white;
   font-weight: 200;
   font-size: rem-calc 16;
+}
+@media (min-width: 768px) {
+  #blog #blog-3 {
+    grid-area: blog-3;
+  }
 }
 #blog #blog-3 section {
   background-image: url("../img/blog/blog3.jpg");
@@ -519,6 +538,11 @@ footer div #locations section div section {
   font-weight: 200;
   font-size: rem-calc 16;
 }
+@media (min-width: 768px) {
+  #blog #blog-4 {
+    grid-area: blog-4;
+  }
+}
 #blog #blog-4 section {
   background-image: url("../img/blog/blog4.jpg");
 }
@@ -530,6 +554,11 @@ footer div #locations section div section {
   color: white;
   font-weight: 200;
   font-size: rem-calc 16;
+}
+@media (min-width: 768px) {
+  #blog #blog-5 {
+    grid-area: blog-5;
+  }
 }
 #blog #blog-5 section {
   background-image: url("../img/blog/blog5.jpg");

@@ -13,6 +13,17 @@
 
 #blog{
 
+    // display: grid;
+    // gap: 16px;
+
+    // @include md{
+    //     grid-template-columns: repeat(4,1fr);
+    //     grid-template-areas: 
+    //     "blog-1 blog-1 blog-2 blog-2"
+    //     "blog-3 blog-3 blog-4 blog-4"
+    //     ". blog-5 blog-5 .";
+    // }
+
     #blog-title{
         h3{
             color: gray;
@@ -20,6 +31,10 @@
     }
 
     .blog-card{
+
+        display: grid;
+        gap: 16px;
+    
         section{
             background-size: cover;
             height: 300px;
@@ -30,9 +45,25 @@
             background-color: rgb(61, 90, 52);
             padding: 16px;
         }
+
+        // display: grid;
+        // gap: 16px;
+    
+        // @include md{
+        //     grid-template-columns: repeat(4,1fr);
+        //     grid-template-areas: 
+        //     "blog-1 blog-1 blog-2 blog-2"
+        //     "blog-3 blog-3 blog-4 blog-4"
+        //     ". blog-5 blog-5 .";
+        // }
     }
 
     #blog-1{
+
+        @include md{
+            grid-area: blog-1;
+        }
+
         section{
             background-image: url("../img/blog/blog1.jpg");
         }
@@ -50,6 +81,11 @@
     }
 
     #blog-2{
+
+        @include md{
+            grid-area: blog-2;
+        }
+        
         section{
             background-image: url("../img/blog/blog2.jpg");
         }
@@ -67,6 +103,11 @@
     }
 
     #blog-3{
+
+        @include md{
+            grid-area: blog-3;
+        }
+        
         section{
             background-image: url("../img/blog/blog3.jpg");
         }
@@ -84,6 +125,11 @@
     }
 
     #blog-4{
+
+        @include md{
+            grid-area: blog-4;
+        }
+        
         section{
             background-image: url("../img/blog/blog4.jpg");
         }
@@ -101,6 +147,11 @@
     }
 
     #blog-5{
+
+        @include md{
+            grid-area: blog-5;
+        }
+        
         section{
             background-image: url("../img/blog/blog5.jpg");
         }
