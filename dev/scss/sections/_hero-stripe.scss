@@ -64,7 +64,7 @@
 
     @include xxl{
         grid-template-columns: auto 720px 720px auto;
-        grid-area: ". plant supplies .";
+        grid-template-areas: ". plant supplies .";
     }
 
     #plant{

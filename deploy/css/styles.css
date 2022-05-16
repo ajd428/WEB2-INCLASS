@@ -658,7 +658,7 @@ footer div #locations section div section {
 @media (min-width: 1440px) {
   #hero-sub-container {
     grid-template-columns: auto 720px 720px auto;
-    grid-area: ". plant supplies .";
+    grid-template-areas: ". plant supplies .";
   }
 }
 @media (min-width: 1440px) {
