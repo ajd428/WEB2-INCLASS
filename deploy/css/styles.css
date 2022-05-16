@@ -357,6 +357,11 @@ template {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". mobile-grid .";
 }
+@media (min-width: 1440px) {
+  .global-grid-mobile {
+    grid-template-columns: auto 1440px auto;
+  }
+}
 .global-grid-mobile > div {
   grid-area: mobile-grid;
 }
@@ -592,19 +597,34 @@ footer div #locations section div section {
     HeroStripe
 ============= */
 @media (min-width: 768px) {
+  #hero-stripe article {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+}
+#hero-stripe article #hero-checklist {
+  background-color: #345425;
+}
+@media (min-width: 1440px) {
+  #hero-stripe article #hero-checklist {
+    grid-template-columns: auto 720px 16px;
+  }
+}
+#hero-stripe article #hero-locations {
+  background-color: #a3cd6c;
+}
+@media (min-width: 1440px) {
+  #hero-stripe article #hero-locations {
+    grid-template-columns: 16px 720px auto;
+  }
+}
+@media (min-width: 768px) {
   #hero-stripe {
     grid-template-columns: 50% auto;
   }
 }
 #hero-stripe section div {
   padding: 16px;
-}
-@media (min-width: 768px) {
-  #hero-stripe article {
-    display: grid;
-    grid-template-columns: 50% auto;
-    padding: 16px;
-  }
 }
 
 .secondary-content > div {

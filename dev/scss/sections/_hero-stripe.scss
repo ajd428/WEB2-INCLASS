@@ -2,20 +2,36 @@
     HeroStripe
 ============= */
 #hero-stripe{
+
+    article{
+        @include md{
+            display: grid;
+            grid-template-columns: 50% auto;
+        }
+
+        #hero-checklist{
+            background-color: rgb(52, 84, 37);
+
+            @include xxl{
+                grid-template-columns: auto 720px 16px;
+            }
+        }
+
+        #hero-locations{
+            background-color: rgb(163, 205, 108);
+
+            @include xxl{
+                grid-template-columns: 16px 720px auto;
+            }
+        }
+    }
+
     @include md{
         grid-template-columns: 50% auto;
     }
 
     section{
         div{
-            padding: 16px;
-        }
-    }
-
-    article{
-        @include md{
-            display: grid;
-            grid-template-columns: 50% auto;
             padding: 16px;
         }
     }
