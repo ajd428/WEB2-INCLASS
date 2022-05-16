@@ -30,11 +30,22 @@
         }
     }
 
-    .blog-card{
-
+    #blog-container{
         display: grid;
         gap: 16px;
-    
+
+        @include md{
+            grid-template-columns: repeat(4,1fr);
+            grid-template-areas: 
+            "blog-1 blog-1 blog-2 blog-2"
+            "blog-3 blog-3 blog-4 blog-4"
+            ". blog-5 blog-5 .";
+        }
+    }
+
+    .blog-card{
+        background-color: rgb(61, 90, 52);
+
         section{
             background-size: cover;
             height: 300px;
@@ -42,20 +53,9 @@
         }
 
         div{
-            background-color: rgb(61, 90, 52);
+           
             padding: 16px;
         }
-
-        // display: grid;
-        // gap: 16px;
-    
-        // @include md{
-        //     grid-template-columns: repeat(4,1fr);
-        //     grid-template-areas: 
-        //     "blog-1 blog-1 blog-2 blog-2"
-        //     "blog-3 blog-3 blog-4 blog-4"
-        //     ". blog-5 blog-5 .";
-        // }
     }
 
     #blog-1{

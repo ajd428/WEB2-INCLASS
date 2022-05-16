@@ -474,9 +474,18 @@ footer div #locations section div section {
 #blog #blog-title h3 {
   color: gray;
 }
-#blog .blog-card {
+#blog #blog-container {
   display: grid;
   gap: 16px;
+}
+@media (min-width: 768px) {
+  #blog #blog-container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "blog-1 blog-1 blog-2 blog-2" "blog-3 blog-3 blog-4 blog-4" ". blog-5 blog-5 .";
+  }
+}
+#blog .blog-card {
+  background-color: #3d5a34;
 }
 #blog .blog-card section {
   background-size: cover;
@@ -484,7 +493,6 @@ footer div #locations section div section {
   background-position: center;
 }
 #blog .blog-card div {
-  background-color: #3d5a34;
   padding: 16px;
 }
 @media (min-width: 768px) {
