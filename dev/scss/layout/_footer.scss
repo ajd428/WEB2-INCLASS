@@ -3,7 +3,23 @@
 ============= */
 footer{
     div{
+
+        display: grid;
+        gap: 16px;
+
+        @include md{
+            grid-template-columns: 50% auto;
+            grid-template-areas: 
+            "locations community"
+            ". follow";
+        }
+
         #locations{
+
+            @include md{
+                grid-area: locations;
+            }
+
             section{
                 div{
                     section{
@@ -13,6 +29,20 @@ footer{
                 }
             }
         }
+
+        #community{
+            @include md{
+                grid-area: community;
+            }
+        }
+
+        #follow{
+            @include md{
+                grid-area: follow;
+            }
+        }
+
+
     }
     background-color: rgb(255, 237, 224);
 }

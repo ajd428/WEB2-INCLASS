@@ -30,16 +30,35 @@
         }
     }
 
+    article{
+        @include md{
+            display: grid;
+            grid-template-columns: 16px auto 16px;
+            grid-template-areas: ". blog .";
+        }
+        @include xxl{
+            grid-template-columns: auto 1440px auto;
+        }
+    }
+
     #blog-container{
         display: grid;
         gap: 16px;
 
         @include md{
+            grid-area: blog;
             grid-template-columns: repeat(4,1fr);
             grid-template-areas: 
             "blog-1 blog-1 blog-2 blog-2"
             "blog-3 blog-3 blog-4 blog-4"
             ". blog-5 blog-5 .";
+        }
+
+        @include lg{
+            grid-template-columns: repeat(6,1fr);
+            grid-template-areas: 
+            "blog-1 blog-1 blog-2 blog-2 blog-3 blog-3"
+            ". blog-4 blog-4 blog-5 blog-5 .";
         }
     }
 

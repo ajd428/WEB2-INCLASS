@@ -463,9 +463,34 @@ header {
 footer {
   background-color: #ffede0;
 }
+footer div {
+  display: grid;
+  gap: 16px;
+}
+@media (min-width: 768px) {
+  footer div {
+    grid-template-columns: 50% auto;
+    grid-template-areas: "locations community" ". follow";
+  }
+}
+@media (min-width: 768px) {
+  footer div #locations {
+    grid-area: locations;
+  }
+}
 footer div #locations section div section {
   display: grid;
   grid-template-columns: 8% auto;
+}
+@media (min-width: 768px) {
+  footer div #community {
+    grid-area: community;
+  }
+}
+@media (min-width: 768px) {
+  footer div #follow {
+    grid-area: follow;
+  }
 }
 
 /* =============
@@ -474,14 +499,33 @@ footer div #locations section div section {
 #blog #blog-title h3 {
   color: gray;
 }
+@media (min-width: 768px) {
+  #blog article {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". blog .";
+  }
+}
+@media (min-width: 1440px) {
+  #blog article {
+    grid-template-columns: auto 1440px auto;
+  }
+}
 #blog #blog-container {
   display: grid;
   gap: 16px;
 }
 @media (min-width: 768px) {
   #blog #blog-container {
+    grid-area: blog;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: "blog-1 blog-1 blog-2 blog-2" "blog-3 blog-3 blog-4 blog-4" ". blog-5 blog-5 .";
+  }
+}
+@media (min-width: 1024px) {
+  #blog #blog-container {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "blog-1 blog-1 blog-2 blog-2 blog-3 blog-3" ". blog-4 blog-4 blog-5 blog-5 .";
   }
 }
 #blog .blog-card {
