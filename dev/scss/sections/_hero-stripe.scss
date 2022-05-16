@@ -11,15 +11,31 @@
 
         #hero-checklist{
             background-color: rgb(52, 84, 37);
-
+            
+            h3{
+                font-weight: 300;
+                color: white;
+            }
+            h5{
+                font-weight: 200;
+                color: white;
+            }
             @include xxl{
                 grid-template-columns: auto 720px 16px;
             }
         }
 
         #hero-locations{
-            background-color: rgb(163, 205, 108);
+            background-color: rgb(152, 182, 107);
 
+            h4{
+                font-weight: 300;
+                color: white;
+            }
+            h5{
+                font-weight: 200;
+                color: white;
+            }
             @include xxl{
                 grid-template-columns: 16px 720px auto;
             }

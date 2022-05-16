@@ -460,6 +460,9 @@ header {
 /* =============
     Footer
 ============= */
+footer {
+  background-color: #ffede0;
+}
 footer div #locations section div section {
   display: grid;
   grid-template-columns: 8% auto;
@@ -477,7 +480,7 @@ footer div #locations section div section {
   background-position: center;
 }
 #blog .blog-card div {
-  background-color: #345425;
+  background-color: #3d5a34;
   padding: 16px;
 }
 #blog #blog-1 section {
@@ -605,13 +608,29 @@ footer div #locations section div section {
 #hero-stripe article #hero-checklist {
   background-color: #345425;
 }
+#hero-stripe article #hero-checklist h3 {
+  font-weight: 300;
+  color: white;
+}
+#hero-stripe article #hero-checklist h5 {
+  font-weight: 200;
+  color: white;
+}
 @media (min-width: 1440px) {
   #hero-stripe article #hero-checklist {
     grid-template-columns: auto 720px 16px;
   }
 }
 #hero-stripe article #hero-locations {
-  background-color: #a3cd6c;
+  background-color: #98b66b;
+}
+#hero-stripe article #hero-locations h4 {
+  font-weight: 300;
+  color: white;
+}
+#hero-stripe article #hero-locations h5 {
+  font-weight: 200;
+  color: white;
 }
 @media (min-width: 1440px) {
   #hero-stripe article #hero-locations {
