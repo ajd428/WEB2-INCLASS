@@ -3,16 +3,15 @@
 ============= */
 footer{
     div{
-        section{
-          #locations{
-              section{
-                  div{
-                      section{
-                          
-                      }
-                  }
-              }
-          }
+        #locations{
+            section{
+                div{
+                    section{
+                        display: grid;
+                        grid-template-columns: 20% auto;
+                    }
+                }
+            }
         }
     }
 }

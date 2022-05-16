@@ -455,6 +455,11 @@ header {
 /* =============
     Footer
 ============= */
+footer div #locations section div section {
+  display: grid;
+  grid-template-columns: 20% auto;
+}
+
 /* =============
     Blog
 ============= */
