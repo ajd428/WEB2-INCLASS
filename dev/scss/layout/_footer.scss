@@ -13,6 +13,11 @@ footer{
             "locations community"
             ". follow";
         }
+        @include lg{
+            grid-template-columns: repeat(3,1fr);
+            grid-template-areas: 
+            "locations community follow";
+        }
 
         #locations{
 
