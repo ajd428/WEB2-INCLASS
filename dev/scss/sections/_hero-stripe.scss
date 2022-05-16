@@ -37,15 +37,46 @@
     }
 }
 
-.secondary-content{
-    >div{
-        display: grid;
-        grid-template-columns: 75% auto;
+#hero-sub-container{
 
-        aside{
-            img{
-                width: 100%;
-            }
+    display: grid;
+    gap: 24px;
+
+    @include md{
+        grid-template-columns: 50% auto;
+    }
+
+    @include xxl{
+        grid-template-columns: auto 720px 720px auto;
+        grid-area: ". plant supplies .";
+    }
+
+    #plant{
+        @include xxl{
+            grid-area: plant;
         }
     }
-}
+
+    #supplies{
+        @include xxl{
+            grid-area: supplies;
+        }
+    }
+
+    .secondary-content{
+        background-color: rgb(244, 211, 201);
+        // >div{
+        //     display: grid;
+        //     grid-template-columns: 75% auto;
+            // margin-bottom: 16px;
+            // margin-top: 16px;
+    
+            // aside{
+            //     img{
+            //         width: 100%;
+            //     }
+            // }
+        }
+    }
+
+// }

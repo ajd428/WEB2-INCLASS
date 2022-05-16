@@ -627,12 +627,33 @@ footer div #locations section div section {
   padding: 16px;
 }
 
-.secondary-content > div {
+#hero-sub-container {
   display: grid;
-  grid-template-columns: 75% auto;
+  gap: 24px;
 }
-.secondary-content > div aside img {
-  width: 100%;
+@media (min-width: 768px) {
+  #hero-sub-container {
+    grid-template-columns: 50% auto;
+  }
+}
+@media (min-width: 1440px) {
+  #hero-sub-container {
+    grid-template-columns: auto 720px 720px auto;
+    grid-area: ". plant supplies .";
+  }
+}
+@media (min-width: 1440px) {
+  #hero-sub-container #plant {
+    grid-area: plant;
+  }
+}
+@media (min-width: 1440px) {
+  #hero-sub-container #supplies {
+    grid-area: supplies;
+  }
+}
+#hero-sub-container .secondary-content {
+  background-color: #f4d3c9;
 }
 
 /* =============
