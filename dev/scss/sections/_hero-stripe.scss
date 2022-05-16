@@ -25,8 +25,11 @@
     >div{
         display: grid;
         grid-template-columns: 75% auto;
-        img{
-            width: 100%;
+
+        aside{
+            img{
+                width: 100%;
+            }
         }
     }
 }
