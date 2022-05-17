@@ -8,8 +8,16 @@ footer{
         font-weight: 200;
         background-color: rgb(225, 128, 120);
         border: none;
-        border-radius: 5px;
-        margin-top: 8px;
+        border-radius: 3.5px;
+        padding: 6px 10px 4px;
+        margin-right: 16px;
+        margin-top: 16px;
+        cursor: pointer;
+        transition: 0.25s;
+
+        &:hover{
+            background-color: rgb(61, 90, 52);
+        }
     }
     
     >div{

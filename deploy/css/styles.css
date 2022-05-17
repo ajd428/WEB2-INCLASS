@@ -429,6 +429,11 @@ body {
 /* =============
     Buttons
 ============= */
+button {
+  margin: 0;
+  padding: 0;
+}
+
 /* =============
     Forms
 ============= */
@@ -469,8 +474,15 @@ footer button {
   font-weight: 200;
   background-color: #e18078;
   border: none;
-  border-radius: 5px;
-  margin-top: 8px;
+  border-radius: 3.5px;
+  padding: 6px 10px 4px;
+  margin-right: 16px;
+  margin-top: 16px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+footer button:hover {
+  background-color: #3d5a34;
 }
 footer > div {
   display: grid;
@@ -521,6 +533,12 @@ footer > div #locations section div section {
   background-color: #e18078;
   border: none;
   border-radius: 5px;
+  padding: 6px 14px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+#blog button:hover {
+  background-color: #98b66b;
 }
 #blog #blog-title h3 {
   color: gray;
@@ -724,6 +742,8 @@ footer > div #locations section div section {
   font-weight: 700;
   color: white;
   margin-left: auto;
+  cursor: pointer;
+  transition: 0.25s;
 }
 #hero-stripe article #hero-checklist {
   background-color: #345425;
@@ -818,6 +838,12 @@ footer > div #locations section div section {
   background-color: #e18078;
   border: none;
   border-radius: 5px;
+  padding: 6px 14px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+#hero-sub-container .secondary-content > div button:hover {
+  background-color: #345425;
 }
 
 /* =============
@@ -829,16 +855,36 @@ footer > div #locations section div section {
   margin-left: 16px;
   width: 100%;
 }
-#search div form {
+#search > div form {
   display: flex;
 }
-#search div form input {
+#search > div form input {
   width: 100%;
+  box-sizing: border-box;
   border: none;
+  border-bottom: 2px pink;
+  color: grey;
+  border-radius: 0;
 }
-#search div form button {
+@media (min-width: 1200px) {
+  #search > div form input {
+    margin-right: 20px;
+  }
+}
+#search > div form button {
   background-color: #e18078;
   border: none;
-  border-radius: 5px;
+  border-radius: 3.5px;
+  padding: 6px 10px 4px;
   margin-right: 16px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+@media (min-width: 768px) {
+  #search > div form button {
+    padding: 9px 16px 6px;
+  }
+}
+#search > div form button:hover {
+  background-color: #3d5a34;
 }

@@ -9,26 +9,41 @@
     width: 100%;
     // display: flex;
 
-    div{
-
+    >div{
 
         form{
             display: flex;
 
             input{
                 width: 100%;
+                box-sizing: border-box;
                 border: none;
-                // border-bottom-width: 100%;
-                // border-bottom: 1pt;
-                // border-bottom: lightcoral;
+                border-bottom: 2px pink;
+                color: grey;
+                border-radius: 0;
+
+                @include xl{
+                    margin-right: 20px;
+                }
             }
 
 
             button{
                 background-color: rgb(225, 128, 120);
                 border: none;
-                border-radius: 5px;
+                border-radius: 3.5px;
+                padding: 6px 10px 4px;
                 margin-right: 16px;
+                cursor: pointer;
+                transition: 0.25s;
+
+                @include md{
+                    padding: 9px 16px 6px;
+                }
+
+                &:hover{
+                    background-color: rgb(61, 90, 52);
+                }
             }
         }
     }

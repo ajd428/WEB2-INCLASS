@@ -20,7 +20,13 @@
         background-color: rgb(225, 128, 120);
         border: none;
         border-radius: 5px;
-        // align-items: center;
+        padding: 6px 14px;
+        cursor: pointer;
+        transition: 0.25s;
+    
+        &:hover{
+            background-color: rgb(152, 182, 107);
+        }
     }
     
     // display: grid;
