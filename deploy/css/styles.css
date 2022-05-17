@@ -469,6 +469,8 @@ footer button {
   font-weight: 200;
   background-color: #e18078;
   border: none;
+  border-radius: 5px;
+  margin-top: 8px;
 }
 footer > div {
   display: grid;
@@ -477,7 +479,8 @@ footer > div {
 @media (min-width: 768px) {
   footer > div {
     grid-template-columns: 50% auto;
-    grid-template-areas: "locations community" ". follow";
+    grid-template-rows: 140px 300px;
+    grid-template-areas: "locations community" "loactions follow";
   }
 }
 @media (min-width: 1024px) {
@@ -517,6 +520,7 @@ footer > div #locations section div section {
   font-weight: 200;
   background-color: #e18078;
   border: none;
+  border-radius: 5px;
 }
 #blog #blog-title h3 {
   color: gray;
@@ -813,6 +817,7 @@ footer > div #locations section div section {
   font-weight: 200;
   background-color: #e18078;
   border: none;
+  border-radius: 5px;
 }
 
 /* =============
@@ -821,8 +826,19 @@ footer > div #locations section div section {
 #search {
   margin-top: 16px;
   margin-bottom: 16px;
+  margin-left: 16px;
+  width: 100%;
+}
+#search div form {
+  display: flex;
+}
+#search div form input {
+  width: 100%;
+  border: none;
 }
 #search div form button {
   background-color: #e18078;
   border: none;
+  border-radius: 5px;
+  margin-right: 16px;
 }

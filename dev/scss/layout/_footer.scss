@@ -8,6 +8,8 @@ footer{
         font-weight: 200;
         background-color: rgb(225, 128, 120);
         border: none;
+        border-radius: 5px;
+        margin-top: 8px;
     }
     
     >div{
@@ -17,9 +19,10 @@ footer{
 
         @include md{
             grid-template-columns: 50% auto;
+            grid-template-rows: 140px 300px;
             grid-template-areas: 
             "locations community"
-            ". follow";
+            "loactions follow";
         }
         @include lg{
             grid-template-columns: repeat(3,1fr);
@@ -42,6 +45,7 @@ footer{
                     section{
                         display: grid;
                         grid-template-columns: 8% auto;
+                        // align-items: center;
                     }
                 }
             }
@@ -50,6 +54,17 @@ footer{
         #community{
             @include md{
                 grid-area: community;
+            }
+
+            div{
+                // border-color: rgb(244, 211, 201);
+                // border-radius: 5px;
+                form{
+                    // background-color: rgb(244, 211, 201);
+                    // border: none;
+                    // border-color: rgb(244, 211, 201);
+                    // border-radius: 5px;
+                }
             }
         }
 
