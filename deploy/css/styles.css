@@ -470,22 +470,41 @@ footer button {
   background-color: #e18078;
   border: none;
 }
+footer > div {
+  display: grid;
+  gap: 16px;
+}
 @media (min-width: 768px) {
-  footer div #locations {
+  footer > div {
+    grid-template-columns: 50% auto;
+    grid-template-areas: "locations community" ". follow";
+  }
+}
+@media (min-width: 1024px) {
+  footer > div {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "locations community follow";
+  }
+}
+@media (min-width: 768px) {
+  footer > div #locations {
     grid-area: locations;
   }
 }
-footer div #locations section div section {
+footer > div #locations address {
+  font-style: normal;
+}
+footer > div #locations section div section {
   display: grid;
   grid-template-columns: 8% auto;
 }
 @media (min-width: 768px) {
-  footer div #community {
+  footer > div #community {
     grid-area: community;
   }
 }
 @media (min-width: 768px) {
-  footer div #follow {
+  footer > div #follow {
     grid-area: follow;
   }
 }

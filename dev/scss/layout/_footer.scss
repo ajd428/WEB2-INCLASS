@@ -10,27 +10,31 @@ footer{
         border: none;
     }
     
-    div{
+    >div{
 
-        // display: grid;
-        // gap: 16px;
+        display: grid;
+        gap: 16px;
 
-        // @include md{
-        //     grid-template-columns: 50% auto;
-        //     grid-template-areas: 
-        //     "locations community"
-        //     ". follow";
-        // }
-        // @include lg{
-        //     grid-template-columns: repeat(3,1fr);
-        //     grid-template-areas: 
-        //     "locations community follow";
-        // }
+        @include md{
+            grid-template-columns: 50% auto;
+            grid-template-areas: 
+            "locations community"
+            ". follow";
+        }
+        @include lg{
+            grid-template-columns: repeat(3,1fr);
+            grid-template-areas: 
+            "locations community follow";
+        }
 
         #locations{
 
             @include md{
                 grid-area: locations;
+            }
+
+            address{
+                font-style: normal;
             }
 
             section{
