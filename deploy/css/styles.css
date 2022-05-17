@@ -464,6 +464,12 @@ header {
 footer {
   background-color: #ffede0;
 }
+footer button {
+  color: white;
+  font-weight: 200;
+  background-color: #e18078;
+  border: none;
+}
 @media (min-width: 768px) {
   footer div #locations {
     grid-area: locations;
@@ -487,6 +493,12 @@ footer div #locations section div section {
 /* =============
     Blog
 ============= */
+#blog button {
+  color: white;
+  font-weight: 200;
+  background-color: #e18078;
+  border: none;
+}
 #blog #blog-title h3 {
   color: gray;
 }
@@ -713,6 +725,10 @@ footer div #locations section div section {
   font-weight: 300;
   color: white;
 }
+#hero-stripe article #hero-locations h3 {
+  font-weight: 200;
+  color: white;
+}
 #hero-stripe article #hero-locations h5 {
   font-weight: 200;
   color: white;
@@ -768,6 +784,16 @@ footer div #locations section div section {
 }
 #hero-sub-container .secondary-content > div .image-container {
   margin-left: auto;
+}
+#hero-sub-container .secondary-content > div h2 {
+  font-weight: 400;
+  color: white;
+}
+#hero-sub-container .secondary-content > div button {
+  color: white;
+  font-weight: 200;
+  background-color: #e18078;
+  border: none;
 }
 
 /* =============
