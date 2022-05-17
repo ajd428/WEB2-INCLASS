@@ -63,7 +63,7 @@ footer{
             address{
                 font-style: normal;
                 color: rgb(61, 90, 52);
-                font-size: rem-calc(12);
+                font-size: rem-calc(14);
                 font-weight: 300;
                 margin-bottom: 16px;
             }
@@ -76,6 +76,7 @@ footer{
                 color: rgb(61, 90, 52);
                 transition: 0.25s;
                 text-decoration: none;
+                font-weight: 300;
 
                 &:hover, &:active{
                     color: rgb(225, 128, 120);
