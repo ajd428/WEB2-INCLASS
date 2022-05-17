@@ -678,6 +678,17 @@ footer div #locations section div section {
     grid-template-columns: 50% auto;
   }
 }
+#hero-stripe article .hero-info > div {
+  display: flex;
+}
+#hero-stripe article .hero-info > div button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: white;
+  margin-left: auto;
+}
 #hero-stripe article #hero-checklist {
   background-color: #345425;
 }

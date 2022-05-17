@@ -9,6 +9,22 @@
             grid-template-columns: 50% auto;
         }
 
+        .hero-info{
+            >div{
+                display: flex;
+
+                button{
+                    background-color: transparent;
+                    border: none;
+                    font-size: rem-calc(18);
+                    font-weight: 700;
+                    color: white;
+                    margin-left: auto;
+                }
+                
+            }
+        }
+        
         #hero-checklist{
             background-color: rgb(52, 84, 37);
             
