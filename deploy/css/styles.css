@@ -753,3 +753,11 @@ footer div #locations section div section {
 /* =============
     Search
 ============= */
+#search {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+#search div form button {
+  background-color: #e18078;
+  border: none;
+}
