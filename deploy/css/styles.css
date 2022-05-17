@@ -680,6 +680,7 @@ footer div #locations section div section {
 }
 #hero-stripe article .hero-info > div {
   display: flex;
+  align-items: center;
 }
 #hero-stripe article .hero-info > div button {
   background-color: transparent;
@@ -727,7 +728,7 @@ footer div #locations section div section {
   }
 }
 #hero-stripe section div {
-  padding: 16px;
+  padding: none;
 }
 
 #hero-sub-container {
@@ -759,6 +760,14 @@ footer div #locations section div section {
 }
 #hero-sub-container .secondary-content {
   background-color: #f4d3c9;
+}
+#hero-sub-container .secondary-content > div {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+#hero-sub-container .secondary-content > div .image-container {
+  margin-left: auto;
 }
 
 /* =============

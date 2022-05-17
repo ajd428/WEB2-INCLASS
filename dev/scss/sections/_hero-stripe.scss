@@ -12,6 +12,7 @@
         .hero-info{
             >div{
                 display: flex;
+                align-items: center;
 
                 button{
                     background-color: transparent;
@@ -64,7 +65,7 @@
 
     section{
         div{
-            padding: 16px;
+            padding: none;
         }
     }
 }
@@ -99,6 +100,18 @@
 
     .secondary-content{
         background-color: rgb(244, 211, 201);
+        >div{
+            display: flex;
+            align-items: center;
+            padding: 16px;
+
+            .image-container{
+                margin-left: auto;
+            }
+        }
+
+    }
+    
         // >div{
         //     display: grid;
         //     grid-template-columns: 75% auto;
@@ -111,6 +124,6 @@
             //     }
             // }
         }
-    }
+    // }
 
 // }
