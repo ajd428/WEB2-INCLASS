@@ -455,6 +455,11 @@ textarea {
 /* =============
     Navigation
 ============= */
+a:link, a:visited {
+  text-decoration: none;
+  transition: 0.25s;
+}
+
 /* =============
     Header
 ============= */
@@ -548,10 +553,29 @@ footer > div #locations section div section {
     grid-area: community;
   }
 }
+footer > div #follow {
+  margin-right: 16px;
+}
 @media (min-width: 768px) {
   footer > div #follow {
     grid-area: follow;
   }
+}
+@media (min-width: 1024px) {
+  footer > div #follow {
+    margin-right: 0;
+    margin-left: 16px;
+  }
+}
+footer > div #follow .fa-brands {
+  color: #3d5a34;
+  font-size: 1.875rem;
+  margin-right: 8px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+footer > div #follow .fa-brands:hover {
+  color: #98b66b;
 }
 
 /* =============

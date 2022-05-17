@@ -114,6 +114,25 @@ footer{
             @include md{
                 grid-area: follow;
             }
+
+            margin-right: 16px;
+
+            @include lg{
+                margin-right: 0;
+                margin-left: 16px;
+            }
+            
+            .fa-brands{
+                color: rgb(61, 90, 52);
+                font-size: rem-calc(30);
+                margin-right: 8px;
+                transition: 0.25s;
+                cursor: pointer;
+
+                &:hover{
+                    color: rgb(152, 182, 107);
+                }
+            }
         }
 
 
