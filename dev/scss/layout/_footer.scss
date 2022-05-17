@@ -24,6 +24,7 @@ footer{
 
         display: grid;
         gap: 16px;
+        
 
         @include md{
             grid-template-columns: 50% auto;
@@ -44,8 +45,23 @@ footer{
                 grid-area: locations;
             }
 
+            align-items: center;
+            margin-top: 16px;
+            h4{
+                font-weight: 400;
+                color: rgb(61, 90, 52);
+            }
+            // section{
+            //     display: flex;
+            //     align-items: center;
+            //     margin-top: 16px;
+            // }
             address{
                 font-style: normal;
+                color: rgb(61, 90, 52);
+                font-size: rem-calc(12);
+                font-weight: 300;
+                margin-bottom: 16px;
             }
 
             section{

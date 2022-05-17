@@ -501,13 +501,25 @@ footer > div {
     grid-template-areas: "locations community follow";
   }
 }
+footer > div #locations {
+  align-items: center;
+  margin-top: 16px;
+}
 @media (min-width: 768px) {
   footer > div #locations {
     grid-area: locations;
   }
 }
+footer > div #locations h4 {
+  font-weight: 400;
+  color: #3d5a34;
+}
 footer > div #locations address {
   font-style: normal;
+  color: #3d5a34;
+  font-size: 0.75rem;
+  font-weight: 300;
+  margin-bottom: 16px;
 }
 footer > div #locations section div section {
   display: grid;
