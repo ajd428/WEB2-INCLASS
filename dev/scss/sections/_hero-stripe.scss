@@ -57,6 +57,8 @@
 
     display: grid;
     gap: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 
     @include md{
         grid-template-columns: 50% auto;

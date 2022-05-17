@@ -44,6 +44,7 @@
     #blog-container{
         display: grid;
         gap: 16px;
+        margin-bottom: 24px;
 
         @include md{
             grid-area: blog;

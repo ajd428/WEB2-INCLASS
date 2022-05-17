@@ -464,22 +464,6 @@ header {
 footer {
   background-color: #ffede0;
 }
-footer div {
-  display: grid;
-  gap: 16px;
-}
-@media (min-width: 768px) {
-  footer div {
-    grid-template-columns: 50% auto;
-    grid-template-areas: "locations community" ". follow";
-  }
-}
-@media (min-width: 1024px) {
-  footer div {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "locations community follow";
-  }
-}
 @media (min-width: 768px) {
   footer div #locations {
     grid-area: locations;
@@ -521,6 +505,7 @@ footer div #locations section div section {
 #blog #blog-container {
   display: grid;
   gap: 16px;
+  margin-bottom: 24px;
 }
 @media (min-width: 768px) {
   #blog #blog-container {
@@ -737,6 +722,8 @@ footer div #locations section div section {
 #hero-sub-container {
   display: grid;
   gap: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 @media (min-width: 768px) {
   #hero-sub-container {
