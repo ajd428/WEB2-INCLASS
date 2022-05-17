@@ -469,6 +469,13 @@ header {
 footer {
   background-color: #ffede0;
 }
+footer h3 {
+  font-weight: 500;
+}
+footer h4 {
+  font-weight: 400;
+  color: #3d5a34;
+}
 footer button {
   color: white;
   font-weight: 200;
@@ -503,7 +510,6 @@ footer > div {
 }
 footer > div #locations {
   align-items: center;
-  margin-top: 16px;
 }
 @media (min-width: 768px) {
   footer > div #locations {
@@ -520,6 +526,17 @@ footer > div #locations address {
   font-size: 0.75rem;
   font-weight: 300;
   margin-bottom: 16px;
+}
+footer > div #locations img {
+  margin-right: 24px;
+}
+footer > div #locations a:link, footer > div #locations a:visited {
+  color: #3d5a34;
+  transition: 0.25s;
+  text-decoration: none;
+}
+footer > div #locations a:link:hover, footer > div #locations a:link:active, footer > div #locations a:visited:hover, footer > div #locations a:visited:active {
+  color: #e18078;
 }
 footer > div #locations section div section {
   display: grid;

@@ -3,6 +3,14 @@
 ============= */
 footer{
 
+    h3{
+        font-weight: 500;
+    }
+
+    h4{
+        font-weight: 400;
+        color: rgb(61, 90, 52);
+    }
     button{
         color: white;
         font-weight: 200;
@@ -46,16 +54,12 @@ footer{
             }
 
             align-items: center;
-            margin-top: 16px;
+            // margin-top: 16px;
             h4{
                 font-weight: 400;
                 color: rgb(61, 90, 52);
             }
-            // section{
-            //     display: flex;
-            //     align-items: center;
-            //     margin-top: 16px;
-            // }
+
             address{
                 font-style: normal;
                 color: rgb(61, 90, 52);
@@ -64,6 +68,19 @@ footer{
                 margin-bottom: 16px;
             }
 
+            img{
+                margin-right: 24px;
+            }
+
+            a:link, a:visited{
+                color: rgb(61, 90, 52);
+                transition: 0.25s;
+                text-decoration: none;
+
+                &:hover, &:active{
+                    color: rgb(225, 128, 120);
+                }
+            }
             section{
                 div{
                     section{
