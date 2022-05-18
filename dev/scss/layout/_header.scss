@@ -4,4 +4,26 @@
 header{
     padding-top: 8px;
     background-color: rgb(255, 237, 224);
+
+    >div{
+        display: grid;
+        grid-template-columns: 50% auto;
+
+        #logo-container{
+
+        }
+
+        #burger-container{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            #burger-button{
+                border: none;
+                background-color: transparent;
+                color: rgb(61, 90, 52);
+                padding: 16px;
+            }
+        }
+    }
 }
