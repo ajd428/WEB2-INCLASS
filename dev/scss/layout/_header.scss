@@ -6,6 +6,8 @@ header{
     background-color: rgb(255, 237, 224);
     position: fixed;
     width: 100%;
+    top: 0;
+    left: 0;
 
     @include lg{
         padding: 24px;
