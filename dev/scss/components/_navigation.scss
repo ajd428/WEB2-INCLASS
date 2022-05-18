@@ -9,7 +9,7 @@ a:link, a:visited{
 
 nav{
 #main-menu{
-    // display: none;
+    display: none;
     background-color:  rgb(225, 128, 120);
     height: 100vh;
     padding: 16px;
@@ -20,7 +20,7 @@ nav{
     box-sizing: border-box;
 
     @include lg{
-        background-color: white;
+        background-color: rgb(244, 211, 201);
         display: block;
         height: 100%;
         padding: 0;
@@ -31,6 +31,10 @@ nav{
     aside{
         display: flex;
         justify-content: flex-end;
+
+        @include lg{
+            display: none;
+        }
 
         button{
             background-color: transparent;
@@ -43,18 +47,43 @@ nav{
         justify-content: center;
         margin-top: 10vh;
 
+        @include lg{
+            display: block;
+            margin-top: 0;
+            height: 100%;
+        }
+
         ul{
 
+            @include lg{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+            }
+
             li{
+
+                @include lg{
+                    margin-left: 16px;
+                }
+
                 a:link, a:visited{
                     text-decoration: none;
                     transition: 0.25s;
                     color: rgb(244, 211, 201);
                     padding: 16px;
                     display: inline-block;
+                    font-size: rem-calc(30);
     
                     &:hover, &:active{
                         color: rgb(61, 90, 52);
+                    }
+
+                    @include lg{
+                        font-size: rem-calc(22);
+                        padding: 0;
+                        font-weight: 300;
+                        color: rgb(225, 128, 120);
                     }
                 }
             }

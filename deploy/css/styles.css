@@ -470,6 +470,7 @@ a:link, a:visited {
 }
 
 nav #main-menu {
+  display: none;
   background-color: #e18078;
   height: 100vh;
   padding: 16px;
@@ -481,7 +482,7 @@ nav #main-menu {
 }
 @media (min-width: 1024px) {
   nav #main-menu {
-    background-color: white;
+    background-color: #f4d3c9;
     display: block;
     height: 100%;
     padding: 0;
@@ -493,6 +494,11 @@ nav #main-menu aside {
   display: flex;
   justify-content: flex-end;
 }
+@media (min-width: 1024px) {
+  nav #main-menu aside {
+    display: none;
+  }
+}
 nav #main-menu aside button {
   background-color: transparent;
   border: none;
@@ -503,15 +509,43 @@ nav #main-menu section {
   justify-content: center;
   margin-top: 10vh;
 }
+@media (min-width: 1024px) {
+  nav #main-menu section {
+    display: block;
+    margin-top: 0;
+    height: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  nav #main-menu section ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+@media (min-width: 1024px) {
+  nav #main-menu section ul li {
+    margin-left: 16px;
+  }
+}
 nav #main-menu section ul li a:link, nav #main-menu section ul li a:visited {
   text-decoration: none;
   transition: 0.25s;
   color: #f4d3c9;
   padding: 16px;
   display: inline-block;
+  font-size: 1.875rem;
 }
 nav #main-menu section ul li a:link:hover, nav #main-menu section ul li a:link:active, nav #main-menu section ul li a:visited:hover, nav #main-menu section ul li a:visited:active {
   color: #3d5a34;
+}
+@media (min-width: 1024px) {
+  nav #main-menu section ul li a:link, nav #main-menu section ul li a:visited {
+    font-size: 1.375rem;
+    padding: 0;
+    font-weight: 300;
+    color: #e18078;
+  }
 }
 
 /* =============
@@ -538,6 +572,11 @@ header > div #burger-container {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+@media (min-width: 1024px) {
+  header > div #burger-container {
+    display: none;
+  }
 }
 header > div #burger-container #burger-btn {
   border: none;
