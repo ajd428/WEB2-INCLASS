@@ -461,8 +461,7 @@ a:link, a:visited {
   transition: 0.25s;
 }
 
-nav {
-  display: none;
+nav #main-menu {
   background-color: #e18078;
   height: 100vh;
   padding: 16px;
@@ -470,9 +469,10 @@ nav {
   right: 0;
   top: 0;
   width: 100vw;
+  box-sizing: border-box;
 }
 @media (min-width: 1024px) {
-  nav {
+  nav #main-menu {
     background-color: white;
     display: block;
     height: 100%;

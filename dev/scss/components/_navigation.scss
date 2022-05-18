@@ -8,7 +8,8 @@ a:link, a:visited{
 }
 
 nav{
-    display: none;
+#main-menu{
+    // display: none;
     background-color:  rgb(225, 128, 120);
     height: 100vh;
     padding: 16px;
@@ -16,6 +17,7 @@ nav{
     right: 0;
     top: 0;
     width: 100vw;
+    box-sizing: border-box;
 
     @include lg{
         background-color: white;
@@ -25,4 +27,6 @@ nav{
         position: relative;
         width: 100%;
     }
+}
+
 }
