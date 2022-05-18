@@ -432,6 +432,7 @@ body {
 button {
   margin: 0;
   padding: 0;
+  cursor: pointer;
 }
 
 /* =============
@@ -481,6 +482,9 @@ header > div #burger-container #burger-button {
   background-color: transparent;
   color: #3d5a34;
   padding: 16px;
+}
+header > div #burger-container #burger-button:hover {
+  color: #98b66b;
 }
 
 /* =============

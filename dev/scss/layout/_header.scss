@@ -23,6 +23,10 @@ header{
                 background-color: transparent;
                 color: rgb(61, 90, 52);
                 padding: 16px;
+
+                &:hover{
+                    color: rgb(152, 182, 107);
+                }
             }
         }
     }
