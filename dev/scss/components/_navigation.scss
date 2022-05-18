@@ -6,3 +6,23 @@ a:link, a:visited{
     text-decoration: none;
     transition: 0.25s;
 }
+
+nav{
+    display: none;
+    background-color:  rgb(225, 128, 120);
+    height: 100vh;
+    padding: 16px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100vw;
+
+    @include lg{
+        background-color: white;
+        display: block;
+        height: 100%;
+        padding: 0;
+        position: relative;
+        width: 100%;
+    }
+}

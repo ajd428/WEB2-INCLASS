@@ -461,6 +461,27 @@ a:link, a:visited {
   transition: 0.25s;
 }
 
+nav {
+  display: none;
+  background-color: #e18078;
+  height: 100vh;
+  padding: 16px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100vw;
+}
+@media (min-width: 1024px) {
+  nav {
+    background-color: white;
+    display: block;
+    height: 100%;
+    padding: 0;
+    position: relative;
+    width: 100%;
+  }
+}
+
 /* =============
     Header
 ============= */
@@ -935,6 +956,11 @@ footer > div #follow .fa-brands:hover {
   margin-top: 66px;
   padding: 16px;
   width: 100%;
+}
+@media (min-width: 768px) {
+  #search {
+    margin-top: 106px;
+  }
 }
 #search > div form {
   display: flex;
