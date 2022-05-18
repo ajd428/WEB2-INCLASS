@@ -352,6 +352,14 @@ template {
 /* =============
     Base
 ============= */
+html {
+  scroll-behavior: smooth;
+}
+
+.show-menu {
+  display: block !important;
+}
+
 .global-grid-mobile {
   display: grid;
   grid-template-columns: 16px auto 16px;
@@ -481,6 +489,30 @@ nav #main-menu {
     width: 100%;
   }
 }
+nav #main-menu aside {
+  display: flex;
+  justify-content: flex-end;
+}
+nav #main-menu aside button {
+  background-color: transparent;
+  border: none;
+  color: #f4d3c9;
+}
+nav #main-menu section {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+nav #main-menu section ul li a:link, nav #main-menu section ul li a:visited {
+  text-decoration: none;
+  transition: 0.25s;
+  color: #f4d3c9;
+  padding: 16px;
+  display: inline-block;
+}
+nav #main-menu section ul li a:link:hover, nav #main-menu section ul li a:link:active, nav #main-menu section ul li a:visited:hover, nav #main-menu section ul li a:visited:active {
+  color: #3d5a34;
+}
 
 /* =============
     Header
@@ -507,13 +539,13 @@ header > div #burger-container {
   justify-content: flex-end;
   align-items: center;
 }
-header > div #burger-container #burger-button {
+header > div #burger-container #burger-btn {
   border: none;
   background-color: transparent;
   color: #3d5a34;
   padding: 16px;
 }
-header > div #burger-container #burger-button:hover {
+header > div #burger-container #burger-btn:hover {
   color: #98b66b;
 }
 
@@ -957,7 +989,7 @@ footer > div #follow .fa-brands:hover {
   padding: 16px;
   width: 100%;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   #search {
     margin-top: 106px;
   }

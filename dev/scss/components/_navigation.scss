@@ -27,6 +27,40 @@ nav{
         position: relative;
         width: 100%;
     }
+
+    aside{
+        display: flex;
+        justify-content: flex-end;
+
+        button{
+            background-color: transparent;
+            border: none;
+            color: rgb(244, 211, 201);
+        }
+    }
+    section{
+        display: flex;
+        justify-content: center;
+        margin-top: 10vh;
+
+        ul{
+
+            li{
+                a:link, a:visited{
+                    text-decoration: none;
+                    transition: 0.25s;
+                    color: rgb(244, 211, 201);
+                    padding: 16px;
+                    display: inline-block;
+    
+                    &:hover, &:active{
+                        color: rgb(61, 90, 52);
+                    }
+                }
+            }
+        }
+    }
+
 }
 
 }

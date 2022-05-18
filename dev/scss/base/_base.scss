@@ -2,6 +2,14 @@
     Base
 ============= */
 
+html{
+    scroll-behavior: smooth;
+}
+
+.show-menu{
+    display: block !important;
+}
+
 .global-grid-mobile{
     display: grid;
     grid-template-columns: 16px auto 16px;
