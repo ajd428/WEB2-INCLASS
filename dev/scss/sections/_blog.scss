@@ -15,9 +15,9 @@
 
 
     button{
-        color: white;
+        color: var(--white);
         font-weight: 200;
-        background-color: rgb(225, 128, 120);
+        background-color: var(--pink);
         border: none;
         border-radius: 5px;
         padding: 6px 14px;
@@ -25,7 +25,7 @@
         transition: 0.25s;
     
         &:hover{
-            background-color: rgb(152, 182, 107);
+            background-color: var(--lime);
         }
     }
     
@@ -42,7 +42,7 @@
 
     #blog-title{
         h3{
-            color: gray;
+            color: var(--forest);
         }
     }
 
@@ -80,7 +80,7 @@
     }
 
     .blog-card{
-        background-color: rgb(61, 90, 52);
+        background-color: var(--forest);
 
         section{
             background-size: cover;
@@ -105,11 +105,11 @@
         }
         div{
             h1{
-                color: white;
+                color: var(--white);
                 font-weight: 500;
             }
             p{
-                color: white;
+                color: var(--white);
                 font-weight: 200;
                 font-size: rem-calc (16);
             }
@@ -127,11 +127,11 @@
         }
         div{
             h1{
-                color: white;
+                color: var(--white);
                 font-weight: 500;
             }
             p{
-                color: white;
+                color: var(--white);
                 font-weight: 200;
                 font-size: rem-calc (16);
             }
@@ -149,11 +149,11 @@
         }
         div{
             h1{
-                color: white;
+                color: var(--white);
                 font-weight: 500;
             }
             p{
-                color: white;
+                color: var(--white);
                 font-weight: 200;
                 font-size: rem-calc (16);
             }
@@ -171,11 +171,11 @@
         }
         div{
             h1{
-                color: white;
+                color: var(--white);
                 font-weight: 500;
             }
             p{
-                color: white;
+                color: var(--white);
                 font-weight: 200;
                 font-size: rem-calc (16);
             }
@@ -193,11 +193,11 @@
         }
         div{
             h1{
-                color: white;
+                color: var(--white);
                 font-weight: 500;
             }
             p{
-                color: white;
+                color: var(--white);
                 font-weight: 200;
                 font-size: rem-calc (16);
             }

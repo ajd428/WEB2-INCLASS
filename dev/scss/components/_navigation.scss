@@ -10,7 +10,7 @@ a:link, a:visited{
 nav{
 #main-menu{
     display: none;
-    background-color:  rgb(225, 128, 120);
+    background-color: var(--pink);
     height: 100vh;
     padding: 16px;
     position: fixed;
@@ -20,7 +20,7 @@ nav{
     box-sizing: border-box;
 
     @include lg{
-        background-color: rgb(244, 211, 201);
+        background-color: var(--sand);
         display: block;
         height: 100%;
         padding: 0;
@@ -39,7 +39,7 @@ nav{
         button{
             background-color: transparent;
             border: none;
-            color: rgb(244, 211, 201);
+            color: var(--peach);
         }
     }
     section{
@@ -70,20 +70,20 @@ nav{
                 a:link, a:visited{
                     text-decoration: none;
                     transition: 0.25s;
-                    color: rgb(244, 211, 201);
+                    color: var(--peach);
                     padding: 16px;
                     display: inline-block;
                     font-size: rem-calc(30);
     
                     &:hover, &:active{
-                        color: rgb(61, 90, 52);
+                        color: var(--forest);
                     }
 
                     @include lg{
                         font-size: rem-calc(22);
                         padding: 0;
                         font-weight: 300;
-                        color: rgb(225, 128, 120);
+                        color: var(--pink);
                     }
                 }
             }

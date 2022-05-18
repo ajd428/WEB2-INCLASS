@@ -9,12 +9,12 @@ footer{
 
     h4{
         font-weight: 400;
-        color: rgb(61, 90, 52);
+        color: var(--forest);
     }
     button{
-        color: white;
+        color: var(--white);
         font-weight: 200;
-        background-color: rgb(225, 128, 120);
+        background-color: var(--pink);
         border: none;
         border-radius: 3.5px;
         padding: 6px 10px 4px;
@@ -24,7 +24,7 @@ footer{
         transition: 0.25s;
 
         &:hover{
-            background-color: rgb(61, 90, 52);
+            background-color: var(--forest);
         }
     }
     
@@ -57,12 +57,12 @@ footer{
             // margin-top: 16px;
             h4{
                 font-weight: 400;
-                color: rgb(61, 90, 52);
+                color: var(--forest);
             }
 
             address{
                 font-style: normal;
-                color: rgb(61, 90, 52);
+                color: var(--forest);
                 font-size: rem-calc(14);
                 font-weight: 300;
                 margin-bottom: 16px;
@@ -73,13 +73,13 @@ footer{
             }
 
             a:link, a:visited{
-                color: rgb(61, 90, 52);
+                color: var(--forest);
                 transition: 0.25s;
                 text-decoration: none;
                 font-weight: 300;
 
                 &:hover, &:active{
-                    color: rgb(225, 128, 120);
+                    color: var(--pink);
                 }
             }
             section{
@@ -123,19 +123,19 @@ footer{
             }
             
             .fa-brands{
-                color: rgb(61, 90, 52);
+                color: var(--forest);
                 font-size: rem-calc(30);
                 margin-right: 8px;
                 transition: 0.25s;
                 cursor: pointer;
 
                 &:hover{
-                    color: rgb(152, 182, 107);
+                    color: var(--lime);
                 }
             }
         }
 
 
     }
-    background-color: rgb(255, 237, 224);
+    background-color: var(--tan);
 }

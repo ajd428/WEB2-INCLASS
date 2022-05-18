@@ -10,6 +10,17 @@ html {
 /* =============
     Variables
 ============= */
+:root {
+  --sand: #F4D3C9;
+  --tan: #FFEDE0;
+  --peach: #E9A69D;
+  --forest: #3D5A34;
+  --lime: #98B66B;
+  --pink: #E18078;
+  --black: #000000;
+  --white: #FFFFFF;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -471,7 +482,7 @@ a:link, a:visited {
 
 nav #main-menu {
   display: none;
-  background-color: #e18078;
+  background-color: var(--pink);
   height: 100vh;
   padding: 16px;
   position: fixed;
@@ -482,7 +493,7 @@ nav #main-menu {
 }
 @media (min-width: 1024px) {
   nav #main-menu {
-    background-color: #f4d3c9;
+    background-color: var(--sand);
     display: block;
     height: 100%;
     padding: 0;
@@ -502,7 +513,7 @@ nav #main-menu aside {
 nav #main-menu aside button {
   background-color: transparent;
   border: none;
-  color: #f4d3c9;
+  color: var(--peach);
 }
 nav #main-menu section {
   display: flex;
@@ -531,20 +542,20 @@ nav #main-menu section {
 nav #main-menu section ul li a:link, nav #main-menu section ul li a:visited {
   text-decoration: none;
   transition: 0.25s;
-  color: #f4d3c9;
+  color: var(--peach);
   padding: 16px;
   display: inline-block;
   font-size: 1.875rem;
 }
 nav #main-menu section ul li a:link:hover, nav #main-menu section ul li a:link:active, nav #main-menu section ul li a:visited:hover, nav #main-menu section ul li a:visited:active {
-  color: #3d5a34;
+  color: var(--forest);
 }
 @media (min-width: 1024px) {
   nav #main-menu section ul li a:link, nav #main-menu section ul li a:visited {
     font-size: 1.375rem;
     padding: 0;
     font-weight: 300;
-    color: #e18078;
+    color: var(--pink);
   }
 }
 
@@ -553,7 +564,7 @@ nav #main-menu section ul li a:link:hover, nav #main-menu section ul li a:link:a
 ============= */
 header {
   padding-top: 8px;
-  background-color: #ffede0;
+  background-color: var(--tan);
   position: fixed;
   width: 100%;
   top: 0;
@@ -581,30 +592,30 @@ header > div #burger-container {
 header > div #burger-container #burger-btn {
   border: none;
   background-color: transparent;
-  color: #3d5a34;
+  color: var(--forest);
   padding: 16px;
 }
 header > div #burger-container #burger-btn:hover {
-  color: #98b66b;
+  color: var(--lime);
 }
 
 /* =============
     Footer
 ============= */
 footer {
-  background-color: #ffede0;
+  background-color: var(--tan);
 }
 footer h3 {
   font-weight: 500;
 }
 footer h4 {
   font-weight: 400;
-  color: #3d5a34;
+  color: var(--forest);
 }
 footer button {
-  color: white;
+  color: var(--white);
   font-weight: 200;
-  background-color: #e18078;
+  background-color: var(--pink);
   border: none;
   border-radius: 3.5px;
   padding: 6px 10px 4px;
@@ -614,7 +625,7 @@ footer button {
   transition: 0.25s;
 }
 footer button:hover {
-  background-color: #3d5a34;
+  background-color: var(--forest);
 }
 footer > div {
   display: grid;
@@ -643,11 +654,11 @@ footer > div #locations {
 }
 footer > div #locations h4 {
   font-weight: 400;
-  color: #3d5a34;
+  color: var(--forest);
 }
 footer > div #locations address {
   font-style: normal;
-  color: #3d5a34;
+  color: var(--forest);
   font-size: 0.875rem;
   font-weight: 300;
   margin-bottom: 16px;
@@ -656,13 +667,13 @@ footer > div #locations img {
   margin-right: 24px;
 }
 footer > div #locations a:link, footer > div #locations a:visited {
-  color: #3d5a34;
+  color: var(--forest);
   transition: 0.25s;
   text-decoration: none;
   font-weight: 300;
 }
 footer > div #locations a:link:hover, footer > div #locations a:link:active, footer > div #locations a:visited:hover, footer > div #locations a:visited:active {
-  color: #e18078;
+  color: var(--pink);
 }
 footer > div #locations section div section {
   display: grid;
@@ -688,23 +699,23 @@ footer > div #follow {
   }
 }
 footer > div #follow .fa-brands {
-  color: #3d5a34;
+  color: var(--forest);
   font-size: 1.875rem;
   margin-right: 8px;
   transition: 0.25s;
   cursor: pointer;
 }
 footer > div #follow .fa-brands:hover {
-  color: #98b66b;
+  color: var(--lime);
 }
 
 /* =============
     Blog
 ============= */
 #blog button {
-  color: white;
+  color: var(--white);
   font-weight: 200;
-  background-color: #e18078;
+  background-color: var(--pink);
   border: none;
   border-radius: 5px;
   padding: 6px 14px;
@@ -712,10 +723,10 @@ footer > div #follow .fa-brands:hover {
   transition: 0.25s;
 }
 #blog button:hover {
-  background-color: #98b66b;
+  background-color: var(--lime);
 }
 #blog #blog-title h3 {
-  color: gray;
+  color: var(--forest);
 }
 @media (min-width: 768px) {
   #blog article {
@@ -748,7 +759,7 @@ footer > div #follow .fa-brands:hover {
   }
 }
 #blog .blog-card {
-  background-color: #3d5a34;
+  background-color: var(--forest);
 }
 #blog .blog-card section {
   background-size: cover;
@@ -767,11 +778,11 @@ footer > div #follow .fa-brands:hover {
   background-image: url("../img/blog/blog1.jpg");
 }
 #blog #blog-1 div h1 {
-  color: white;
+  color: var(--white);
   font-weight: 500;
 }
 #blog #blog-1 div p {
-  color: white;
+  color: var(--white);
   font-weight: 200;
   font-size: rem-calc 16;
 }
@@ -784,11 +795,11 @@ footer > div #follow .fa-brands:hover {
   background-image: url("../img/blog/blog2.jpg");
 }
 #blog #blog-2 div h1 {
-  color: white;
+  color: var(--white);
   font-weight: 500;
 }
 #blog #blog-2 div p {
-  color: white;
+  color: var(--white);
   font-weight: 200;
   font-size: rem-calc 16;
 }
@@ -801,11 +812,11 @@ footer > div #follow .fa-brands:hover {
   background-image: url("../img/blog/blog3.jpg");
 }
 #blog #blog-3 div h1 {
-  color: white;
+  color: var(--white);
   font-weight: 500;
 }
 #blog #blog-3 div p {
-  color: white;
+  color: var(--white);
   font-weight: 200;
   font-size: rem-calc 16;
 }
@@ -818,11 +829,11 @@ footer > div #follow .fa-brands:hover {
   background-image: url("../img/blog/blog4.jpg");
 }
 #blog #blog-4 div h1 {
-  color: white;
+  color: var(--white);
   font-weight: 500;
 }
 #blog #blog-4 div p {
-  color: white;
+  color: var(--white);
   font-weight: 200;
   font-size: rem-calc 16;
 }
@@ -835,11 +846,11 @@ footer > div #follow .fa-brands:hover {
   background-image: url("../img/blog/blog5.jpg");
 }
 #blog #blog-5 div h1 {
-  color: white;
+  color: var(--white);
   font-weight: 500;
 }
 #blog #blog-5 div p {
-  color: white;
+  color: var(--white);
   font-weight: 200;
   font-size: rem-calc 16;
 }
@@ -914,21 +925,21 @@ footer > div #follow .fa-brands:hover {
   border: none;
   font-size: 1.125rem;
   font-weight: 700;
-  color: white;
+  color: var(--white);
   margin-left: auto;
   cursor: pointer;
   transition: 0.25s;
 }
 #hero-stripe article #hero-checklist {
-  background-color: #345425;
+  background-color: var(--forest);
 }
 #hero-stripe article #hero-checklist h3 {
   font-weight: 300;
-  color: white;
+  color: var(--white);
 }
 #hero-stripe article #hero-checklist h5 {
   font-weight: 200;
-  color: white;
+  color: var(--white);
 }
 @media (min-width: 1440px) {
   #hero-stripe article #hero-checklist {
@@ -936,19 +947,19 @@ footer > div #follow .fa-brands:hover {
   }
 }
 #hero-stripe article #hero-locations {
-  background-color: #98b66b;
+  background-color: var(--lime);
 }
 #hero-stripe article #hero-locations h4 {
   font-weight: 300;
-  color: white;
+  color: var(--white);
 }
 #hero-stripe article #hero-locations h3 {
   font-weight: 200;
-  color: white;
+  color: var(--white);
 }
 #hero-stripe article #hero-locations h5 {
   font-weight: 200;
-  color: white;
+  color: var(--white);
 }
 @media (min-width: 1440px) {
   #hero-stripe article #hero-locations {
@@ -992,7 +1003,7 @@ footer > div #follow .fa-brands:hover {
   }
 }
 #hero-sub-container .secondary-content {
-  background-color: #f4d3c9;
+  background-color: var(--sand);
 }
 #hero-sub-container .secondary-content > div {
   display: flex;
@@ -1004,12 +1015,12 @@ footer > div #follow .fa-brands:hover {
 }
 #hero-sub-container .secondary-content > div h2 {
   font-weight: 400;
-  color: white;
+  color: var(--white);
 }
 #hero-sub-container .secondary-content > div button {
-  color: white;
+  color: var(--white);
   font-weight: 200;
-  background-color: #e18078;
+  background-color: var(--pink);
   border: none;
   border-radius: 5px;
   padding: 6px 14px;
@@ -1017,7 +1028,7 @@ footer > div #follow .fa-brands:hover {
   transition: 0.25s;
 }
 #hero-sub-container .secondary-content > div button:hover {
-  background-color: #345425;
+  background-color: var(--forest);
 }
 
 /* =============
@@ -1040,8 +1051,8 @@ footer > div #follow .fa-brands:hover {
   width: 100%;
   box-sizing: border-box;
   border: none;
-  border-bottom: 2px pink;
-  color: grey;
+  border-bottom: 2px var(--pink);
+  color: var(--forest);
   border-radius: 0;
 }
 @media (min-width: 1200px) {
@@ -1050,7 +1061,7 @@ footer > div #follow .fa-brands:hover {
   }
 }
 #search > div form button {
-  background-color: #e18078;
+  background-color: var(--peach);
   border: none;
   border-radius: 3.5px;
   padding: 6px 10px 4px;
@@ -1064,5 +1075,5 @@ footer > div #follow .fa-brands:hover {
   }
 }
 #search > div form button:hover {
-  background-color: #3d5a34;
+  background-color: var(--forest);
 }

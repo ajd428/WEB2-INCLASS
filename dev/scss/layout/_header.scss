@@ -3,7 +3,7 @@
 ============= */
 header{
     padding-top: 8px;
-    background-color: rgb(255, 237, 224);
+    background-color: var(--tan);
     position: fixed;
     width: 100%;
     top: 0;
@@ -33,11 +33,11 @@ header{
             #burger-btn{
                 border: none;
                 background-color: transparent;
-                color: rgb(61, 90, 52);
+                color: var(--forest);
                 padding: 16px;
 
                 &:hover{
-                    color: rgb(152, 182, 107);
+                    color: var(--lime);
                 }
             }
         }
