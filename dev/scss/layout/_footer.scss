@@ -5,11 +5,17 @@ footer{
 
     h3{
         font-weight: 500;
+        margin-top: 36px;
     }
 
     h4{
         font-weight: 400;
         color: var(--forest);
+    }
+    input{
+        border: none;
+        background-color: var(--sand);
+        padding: 8px;
     }
     button{
         color: var(--white);

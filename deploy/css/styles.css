@@ -363,6 +363,14 @@ template {
 /* =============
     Base
 ============= */
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -480,7 +488,7 @@ a:link, a:visited {
   transition: 0.25s;
 }
 
-nav #main-menu {
+#main-menu {
   display: none;
   background-color: var(--pink);
   height: 100vh;
@@ -492,54 +500,59 @@ nav #main-menu {
   box-sizing: border-box;
 }
 @media (min-width: 1024px) {
-  nav #main-menu {
-    background-color: var(--sand);
+  #main-menu {
+    background-color: transparent;
     display: block;
     height: 100%;
     padding: 0;
     position: relative;
     width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+    box-sizing: border-box;
   }
 }
-nav #main-menu aside {
+#main-menu aside {
   display: flex;
   justify-content: flex-end;
 }
 @media (min-width: 1024px) {
-  nav #main-menu aside {
+  #main-menu aside {
     display: none;
   }
 }
-nav #main-menu aside button {
+#main-menu aside button {
   background-color: transparent;
   border: none;
   color: var(--peach);
 }
-nav #main-menu section {
+#main-menu section {
   display: flex;
   justify-content: center;
   margin-top: 10vh;
 }
 @media (min-width: 1024px) {
-  nav #main-menu section {
+  #main-menu section {
     display: block;
     margin-top: 0;
     height: 100%;
   }
 }
 @media (min-width: 1024px) {
-  nav #main-menu section ul {
+  #main-menu section ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
   }
 }
 @media (min-width: 1024px) {
-  nav #main-menu section ul li {
+  #main-menu section ul li {
     margin-left: 16px;
   }
 }
-nav #main-menu section ul li a:link, nav #main-menu section ul li a:visited {
+#main-menu section ul li a:link, #main-menu section ul li a:visited {
   text-decoration: none;
   transition: 0.25s;
   color: var(--peach);
@@ -547,11 +560,11 @@ nav #main-menu section ul li a:link, nav #main-menu section ul li a:visited {
   display: inline-block;
   font-size: 1.875rem;
 }
-nav #main-menu section ul li a:link:hover, nav #main-menu section ul li a:link:active, nav #main-menu section ul li a:visited:hover, nav #main-menu section ul li a:visited:active {
+#main-menu section ul li a:link:hover, #main-menu section ul li a:link:active, #main-menu section ul li a:visited:hover, #main-menu section ul li a:visited:active {
   color: var(--forest);
 }
 @media (min-width: 1024px) {
-  nav #main-menu section ul li a:link, nav #main-menu section ul li a:visited {
+  #main-menu section ul li a:link, #main-menu section ul li a:visited {
     font-size: 1.375rem;
     padding: 0;
     font-weight: 300;
@@ -569,6 +582,7 @@ header {
   width: 100%;
   top: 0;
   left: 0;
+  box-sizing: border-box;
 }
 @media (min-width: 1024px) {
   header {
@@ -607,10 +621,16 @@ footer {
 }
 footer h3 {
   font-weight: 500;
+  margin-top: 36px;
 }
 footer h4 {
   font-weight: 400;
   color: var(--forest);
+}
+footer input {
+  border: none;
+  background-color: var(--sand);
+  padding: 8px;
 }
 footer button {
   color: var(--white);
@@ -1038,6 +1058,7 @@ footer > div #follow .fa-brands:hover {
   margin-top: 66px;
   padding: 16px;
   width: 100%;
+  box-sizing: border-box;
 }
 @media (min-width: 1024px) {
   #search {
@@ -1051,7 +1072,7 @@ footer > div #follow .fa-brands:hover {
   width: 100%;
   box-sizing: border-box;
   border: none;
-  border-bottom: 2px var(--pink);
+  border-bottom: 2px solid var(--peach);
   color: var(--forest);
   border-radius: 0;
 }

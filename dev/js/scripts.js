@@ -1,5 +1,5 @@
-let burgerBtn = document.querySelector("burger-btn");
-let mainMenu = document.querySelector("main-menu");
+let burgerBtn = document.querySelector("#burger-btn");
+let mainMenu = document.querySelector("#main-menu");
 
 let canSeeMenu = false;
 

@@ -7,7 +7,7 @@ a:link, a:visited{
     transition: 0.25s;
 }
 
-nav{
+
 #main-menu{
     display: none;
     background-color: var(--pink);
@@ -20,12 +20,18 @@ nav{
     box-sizing: border-box;
 
     @include lg{
-        background-color: var(--sand);
+        background-color: transparent;
         display: block;
         height: 100%;
         padding: 0;
         position: relative;
         width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: flex-end;
+        // align-items: center;
+        margin-top: 16px;
+        box-sizing: border-box;
     }
 
     aside{
@@ -92,4 +98,3 @@ nav{
 
 }
 
-}
